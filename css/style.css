@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 90%;
+}
+
+header {
+    border-bottom: 1px solid #88888856;
+}
+body {
+    background-color: #f5f5f5;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 3rem;
+}
+
+a {
+    color: rgb(0, 106, 253);
+    text-decoration: none;
+}
+
+li {
+    font-size: large;
+    font-family: "Work Sans", sans-serif;
+}
+h2 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: xx-large;
+}
+
+.seleccionado {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+}
+.underline-on-hover:hover {
+    text-decoration: underline;
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+.encabezado {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.2fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: #ffffff;
+
+    grid-template-areas:
+        "logo buscador carrito"
+        "menu menu menu"
+        "data data data";
+}
+
+.menu {
+    grid-area: menu;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 110%;
+    z-index: 1;
+}
+
+.buscador {
+    grid-area: buscador;
+    background-color: transparent;
+}
+.logo {
+    grid-area: logo;
+    border-radius: 40%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.logo img {
+    width: 100%;
+    height: 5rem;
+}
+
+.carrito {
+    grid-area: carrito;
+    display: flex;
+    justify-content: end;
+    background-color: #ffffff;
+}
+
+.carritoIcon {
+    background-image: url(../imagenes/iconos/carrito1.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border: none;
+    transition: transform 0.2s;
+}
+.carritoIcon:hover {
+    transform: scale(1.1);
+}
+
+.btnCarrito {
+    background-color: rgb(68, 0, 153);
+    border-radius: 0.5rem;
+}
+.offcanvas {
+    z-index: 9999;
+}
+
+.data {
+    grid-area: data;
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    margin: auto;
+}
+
+.fecha {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "Work Sans", sans-serif;
+    font-style: italic;
+}
+
+.carousel1 {
+    margin-top: 14rem;
+    max-height: max-content;
+    width: auto;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.tarjetas {
+    text-align: center;
+    max-width: 200px;
+}
+
+.tarjetas img {
+    width: auto;
+    height: 28px;
+    margin: 0 auto;
+}
+
+.tarjetas p {
+    margin-top: 10px;
+}
+
+.tarjetas a {
+    color: blue;
+    cursor: pointer;
+}
+/* Estilo para ocultar la ventana por defecto */
+.ventana {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+/* Estilo para el contenido de la ventana */
+.ventana-content {
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para el botón de cerrar el ventana */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Tarjetas CARDS para mostrar productos*/
+#productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: auto;
+    margin-left: 4rem;
+}
+
+.contenedorTarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    width: 80rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.shadow {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: translateY(-1.5rem);
+    font-size: 1.2rem;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+    flex-grow: 1;
+    object-fit: contain;
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.contenedor-tarjetas {
+    margin-top: 4rem;
+    padding-top: 4rem;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 20px;
+    justify-content: space-around;
+}
+
+.ocultar {
+    right: -340px;
+    transition: all 0.2s;
+}
+
+/* Tarjetas CARDS para mostrar productos en pantallas medianas o más pequeñas */
+@media (max-width: 768px) {
+    #productos,
+    .contenedorTarjetas {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 2rem;
+    }
+
+    .card {
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+/* Estilos adicionales para pantallas más pequeñas */
+@media (max-width: 576px) {
+    #productos,
+    .contenedorTarjetas {
+        grid-template-columns: 1fr;
+        margin-left: 1rem;
+    }
+
+    .card {
+        width: auto;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+.btn {
+    background-color: rgb(68, 0, 153);
+    font-family: "Work Sans", sans-serif;
+    color: aliceblue;
+}
+
+.btn:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgb(68, 0, 153) 0%,
+        rgba(30, 144, 255, 1) 0%,
+        rgba(0, 212, 255, 1) 100%
+    );
+}
+
+.btn1 {
+    background-color: #ffffff;
+    border: #888;
+}
+.button {
+    font-size: 17px;
+    padding: 0.5em 2rem;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: rgb(68, 0, 153);
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.button:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgb(68, 0, 153) 0%,
+        rgba(30, 144, 255, 1) 0%,
+        rgba(0, 212, 255, 1) 100%
+    );
+}
+
+.button:active {
+    transform: translate(0em, 0.2em);
+}
+
+.carritoCantidad {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 106, 253);
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin: 5px 10px 0 30px;
+    border-radius: 50%;
+    color: #f5f5f5;
+}
+
+/* Estilos generales para el footer */
+.footer {
+    background-color: #ffffff;
+    color: rgb(0, 106, 253);
+    padding: 40px 0;
+    padding-top: 2px;
+    border-top: 1px solid #88888856;
+    color: #888;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color: rgb(0, 106, 253);
+    text-decoration: none;
+    color: #888;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .col-md-3 {
+    flex-basis: calc(25% - 20px);
+    padding: 0 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a i {
+    margin-right: 5px;
+}
+
+.footer address p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+hr {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: medium;
+    color: #888;
+}

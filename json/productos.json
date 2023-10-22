@@ -1,0 +1,293 @@
+[
+    {
+        "id": 101,
+        "nombre": "Lenovo",
+        "descripcion": "Notebook Lenovo 14” Celeron 4GB 500GB IdeaPad 3 81WH0015AR.",
+        "precio": 199999,
+        "categoria": "notebbok",
+        "imagen": "imagenes/notebook/lenovo.webp"
+    },
+    {
+        "id": 102,
+        "nombre": "HP",
+        "descripcion": "Notebook HP 15.6” Intel Core i5 10 Núcleos 8GB RAM 512GB SSD- DY5001LA.",
+        "precio": 199999,
+        "categoria": "notebook",
+        "imagen": "imagenes/notebook/notebook-hp.webp"
+    },
+    {
+        "id": 103,
+        "nombre": "Acer",
+        "descripcion": "Notebook Acer 15,6” Intel Core i5 12 Núcleos 8GB 512GB SSD Nitro 5 Placa.",
+        "precio": 729999,
+        "categoria": "notebook",
+        "imagen": "imagenes/notebook/notebook-acer.webp"
+    },
+    {
+        "id": 104,
+        "nombre": "Samsung",
+        "descripcion": "Notebook Samsung 16” Intel Core i7 12 Núcleos 512GB 16GB Galaxy Book3 Pro 360 NP960QFG-KA1A.",
+        "precio": 1244999,
+        "categoria": "notebook",
+        "imagen": "imagenes/notebook/notebook-samsung.webp"
+    },
+    {
+        "id": 105,
+        "nombre": "Dell",
+        "descripcion": "Notebook DELL 15.6” Ryzen 5 8GB 256GB SSD INSP3525 2DJ8R.",
+        "precio": 479999,
+        "categoria": "notebook",
+        "imagen": "imagenes/notebook/notebook-dell.webp"
+    },
+    {
+        "id": 106,
+        "nombre": "Asus",
+        "descripcion": "Notebook Asus 15,6” Intel Core i5 12 Núcleos 8GB 256GB SSD X1502ZA-EJ294W.",
+        "precio": 489999,
+        "categoria": "notebook",
+        "imagen": "imagenes/notebook/notebook-asus.webp"
+    },
+    {
+        "id": 107,
+        "nombre": "Apple",
+        "descripcion": "Apple - MacBook Air 13” M1 Chip 8-core CPU 7-core GPU 256GB Silver.",
+        "precio": 1349900,
+        "categoria": "notebook",
+        "imagen": "imagenes/notebook/notebook-apple.webp"
+    },
+    {
+        "id": 108,
+        "nombre": "Bangho",
+        "descripcion": "Notebook Banghó Bes X4 Core I7 8GB 480GB 14” FHD Windows 11 Home + Office.",
+        "precio": 1244999,
+        "categoria": "notebook",
+        "imagen": "imagenes/notebook/notebook-bangho.webp"
+    },
+    {
+        "id": 109,
+        "nombre": "Noblex",
+        "descripcion": "Notebook Noblex 14 Core i3-1115G4 8GB 256GB Win11Home.",
+        "precio": 412699,
+        "categoria": "notebook",
+        "imagen": "imagenes/notebook/notebook-acer.webp"
+    },
+
+    {
+        "id": 201,
+        "nombre": "Apple",
+        "descripcion": "Celular Apple - iPhone 13 Pro 256GB Sierra Blue.",
+        "precio": 2339900,
+        "categoria": "celular",
+        "imagen": "imagenes/celulares/celular-apple.webp"
+    },
+    {
+        "id": 202,
+        "nombre": "Samsung",
+        "descripcion": "Celular Samsung Z Flip4 128 GB + Galaxy Buds2 Negro.",
+        "precio": 519598,
+        "categoria": "celular",
+        "imagen": "imagenes/celulares/celular-samsungFlip.webp"
+    },
+    {
+        "id": 203,
+        "nombre": "Samsung",
+        "descripcion": "Celular Samsung Galaxy Z Fold4 Dual Sim 512 Gb Gray Green 12 Gb Ram.",
+        "precio": 1346399,
+        "categoria": "celular",
+        "imagen": "imagenes/celulares/celular-samsungFold.webp"
+    },
+    {
+        "id": 204,
+        "nombre": "Motorola",
+        "descripcion": "Celular Motorola Razr 40 Ultra 512GB Negro Infinito.",
+        "precio": 649999,
+        "categoria": "celular",
+        "imagen": "imagenes/celulares/celular-motorolarazr.webp"
+    },
+    {
+        "id": 205,
+        "nombre": "Xiaomi",
+        "descripcion": "Celular Xiaomi Poco F4 GT 5G 12GB 256GB C Amarillo Sin Cargador.",
+        "precio": 906749,
+        "categoria": "celular",
+        "imagen": "imagenes/celulares/celular-xiaomiAmarillo.webp"
+    },
+    {
+        "id": 206,
+        "nombre": "TCL",
+        "descripcion": "Celular TCL 30 Se 256 Gb Space Gray 6 Gb Ram.",
+        "precio": 160999,
+        "categoria": "celular",
+        "imagen": "imagenes/celulares/celular-tcl.webp"
+    },
+    {
+        "id": 207,
+        "nombre": "ZTE",
+        "descripcion": "Celular ZTE Blade V40 Design 128GB Black.",
+        "precio": 89999,
+        "categoria": "celular",
+        "imagen": "imagenes/celulares/celular-zte.webp"
+    },
+    {
+        "id": 208,
+        "nombre": "Quantum",
+        "descripcion": "Celular Quantum Q30 Octa-Core 6/128 GB 48+5+2/8 MP Negro.",
+        "precio": 168917,
+        "categoria": "celular",
+        "imagen": "imagenes/celulares/celular-quantum.webp"
+    },
+    {
+        "id": 209,
+        "nombre": "Apple",
+        "descripcion": "Celular Apple - iPhone 13 256GB Pink.",
+        "precio": 2429820,
+        "categoria": "celular",
+        "imagen": "imagenes/celulares/celular-apple-pink.webp"
+    },
+
+    {
+        "id": 301,
+        "nombre": "Samsung",
+        "descripcion": "Smart TV 4K UHD Samsung 50 Pulgadas UN50AU7000.",
+        "precio": 214999,
+        "categoria": "smartTv",
+        "imagen": "imagenes/smartTv/smartTv-Samsung1.webp"
+    },
+    {
+        "id": 302,
+        "nombre": "Philips",
+        "descripcion": "Smart TV  50 Pulgadas 4K UHD Philips 50PUD7406/77.",
+        "precio": 214999,
+        "categoria": "smartTv",
+        "imagen": "imagenes/smartTv/smartTv-Philips.webp"
+    },
+    {
+        "id": 303,
+        "nombre": "Admiral",
+        "descripcion": "Smart TV 4K  50 Pulgadas 4K Android TV Admiral AD50G22.",
+        "precio": 199999,
+        "categoria": "smartTv",
+        "imagen": "imagenes/smartTv/smartTv-admiral.webp"
+    },
+    {
+        "id": 304,
+        "nombre": "Hitachi",
+        "descripcion": "Smart TV Hitachi 50” 4K UHD LE504KSMART2.",
+        "precio": 224999,
+        "categoria": "smartTv",
+        "imagen": "imagenes/smartTv/smartTv-hitachi.webp"
+    },
+    {
+        "id": 305,
+        "nombre": "TCL",
+        "descripcion": "Smart TV 55Pulgadas 4K UHD TCL L55P735.",
+        "precio": 279999,
+        "categoria": "smartTv",
+        "imagen": "imagenes/smartTv/smartTv-tcl.webp"
+    },
+    {
+        "id": 306,
+        "nombre": "LG",
+        "descripcion": "Smart TV 4K 65 Pulgadas LG 65UP7750PSB.",
+        "precio": 489999,
+        "categoria": "smartTv",
+        "imagen": "imagenes/smartTv/smartTv-lg.webp"
+    },
+    {
+        "id": 307,
+        "nombre": "Noblex",
+        "descripcion": "Smart Tv Noblex Dk75x7500 Led 4k 75 Pulgadas Google Tv Uhd.",
+        "precio": 749999,
+        "categoria": "smartTv",
+        "imagen": "imagenes/smartTv/smartTv-noblex.webp"
+    },
+    {
+        "id": 308,
+        "nombre": "Motorola",
+        "descripcion": "Televisor Smart 50 Motorola 4K UHD Android MT50G22.",
+        "precio": 278999,
+        "categoria": "smartTv",
+        "imagen": "imagenes/smartTv/smartTv-motorola.webp"
+    },
+    {
+        "id": 309,
+        "nombre": "Samsung",
+        "descripcion": "Smart TV 50 Pulgadas Neo QLED 4K Samsung QN50QN90CAGCZB.",
+        "precio": 799999,
+        "categoria": "smartTv",
+        "imagen": "imagenes/smartTv/smartTv-SamsungNeo.webp"
+    },
+
+    {
+        "id": 401,
+        "nombre": "Samsung",
+        "descripcion": "Smart TV 50 Pulgadas Neo QLED 4K Samsung QN50QN90CAGCZB.",
+        "precio": 799999,
+        "categoria": "ofertas",
+        "imagen": "imagenes/smartTv/smartTv-SamsungNeo.webp"
+    },
+    {
+        "id": 401,
+        "nombre": "Apple",
+        "descripcion": "Apple - iPhone 13 256GB Pink.",
+        "precio": 2429820,
+        "categoria": "ofertas",
+        "imagen": "imagenes/celulares/celular-apple-pink.webp"
+    },
+    {
+        "id": 403,
+        "nombre": "Noblex",
+        "descripcion": "Notebook Noblex 14 Core i3-1115G4 8GB 256GB Win11Home.",
+        "precio": 412699,
+        "categoria": "ofertas",
+        "imagen": "imagenes/notebook/notebook-acer.webp"
+    },
+    {
+        "id": 404,
+        "nombre": "Noblex",
+        "descripcion": "Smart Tv Noblex Dk75x7500 Led 4k 75 Pulgadas Google Tv Uhd.",
+        "precio": 749999,
+        "categoria": "ofertas",
+        "imagen": "imagenes/smartTv/smartTv-noblex.webp"
+    },
+    {
+        "id": 405,
+        "nombre": "Motorola",
+        "descripcion": "Televisor Smart 50 Motorola 4K UHD Android MT50G22.",
+        "precio": 278999,
+        "categoria": "ofertas",
+        "imagen": "imagenes/smartTv/smartTv-motorola.webp"
+    },
+    {
+        "id": 406,
+        "nombre": "ZTE",
+        "descripcion": "Celular ZTE Blade V40 Design 128GB Black.",
+        "precio": 89999,
+        "categoria": "ofertas",
+        "imagen": "imagenes/celulares/celular-zte.webp"
+    },
+    {
+        "id": 407,
+        "nombre": "Quantum",
+        "descripcion": "Celular Quantum Q30 Octa-Core 6/128 GB 48+5+2/8 MP Negro.",
+        "precio": 168917,
+        "categoria": "ofertas",
+        "imagen": "imagenes/celulares/celular-quantum.webp"
+    },
+    {
+        "id": 408,
+        "nombre": "Apple",
+        "descripcion": "Apple - MacBook Air 13” M1 Chip 8-core CPU 7-core GPU 256GB Silver.",
+        "precio": 1349900,
+        "categoria": "ofertas",
+        "imagen": "imagenes/notebook/notebook-apple.webp"
+    },
+    {
+        "id": 409,
+        "nombre": "Bangho",
+        "descripcion": "Notebook Banghó Bes X4 Core I7 8GB 480GB 14” FHD Windows 11 Home + Office.",
+        "precio": 1244999,
+        "categoria": "ofertas",
+        "imagen": "imagenes/notebook/notebook-bangho.webp"
+    }
+]
